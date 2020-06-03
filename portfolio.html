@@ -4,31 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Шапка страницы -->
     <header>
       <nav>
-        <a href="./index.html"> <span>Web</span> Studio</a>
-        <ul>
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
-        </ul>
-        <ul>
+        <a href="./index.html" class="logo"
+          >Web <span class="logo-header">Studio</span></a
+        >
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link nav">Студия</a></li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="./portfolio.html" class="link nav current">Портфолио</a>
+          </li>
+          <li><a href="" class="link nav">Контакты</a></li>
+        </ul>
+        <ul class="site-nav contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
-        <h1>Портфолио</h1>
+        <h1 class="title">Портфолио</h1>
         <div>
           <button type="button">Все</button>
           <button type="button">Веб-сайты</button>
@@ -45,7 +56,7 @@
               width="370"
               height="294"
             />
-            <h2>Технокряк</h2>
+            <h2 class="title">Технокряк</h2>
             <p>Веб-сайт</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -60,7 +71,7 @@
               width="370"
               height="294"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
+            <h2 class="title">Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -75,7 +86,7 @@
               width="370"
               height="294"
             />
-            <h2>Ресторан Seafood</h2>
+            <h2 class="title">Ресторан Seafood</h2>
             <p>Приложение</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -90,7 +101,7 @@
               width="370"
               height="294"
             />
-            <h2>Проект Prime</h2>
+            <h2 class="title">Проект Prime</h2>
             <p>Маркетинг</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -105,7 +116,7 @@
               width="370"
               height="294"
             />
-            <h2>Проект Boxes</h2>
+            <h2 class="title">Проект Boxes</h2>
             <p>Приложение</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -120,7 +131,7 @@
               width="370"
               height="294"
             />
-            <h2>Inspiration has no Borders</h2>
+            <h2 class="title">Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -135,7 +146,7 @@
               width="370"
               height="294"
             />
-            <h2>Издание Limited Edition</h2>
+            <h2 class="title">Издание Limited Edition</h2>
             <p>Дизайн</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -150,7 +161,7 @@
               width="370"
               height="294"
             />
-            <h2>Проект LAB</h2>
+            <h2 class="title">Проект LAB</h2>
             <p>Маркетинг</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -165,7 +176,7 @@
               width="370"
               height="294"
             />
-            <h2>Growing Business</h2>
+            <h2 class="title">Growing Business</h2>
             <p>Приложение</p>
             <p>
               Технокряк это современная площадка распространения коронавируса.
@@ -177,16 +188,20 @@
       </section>
     </main>
     <!-- Футер -->
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="./index.html"> <span>Web</span> Studio</a>
+        <a href="./index.html" class="logo"
+          >Web <span class="logo-footer">Studio</span></a
+        >
         <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <ul>
+        <ul class="contacts list">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -194,17 +209,27 @@
         <!-- Призыв -->
         <b>присоединяйтесь</b>
         <ul>
-          <li><a href="" aria-label="ссылка на Instagram">Instagram</a></li>
-          <li><a href="" aria-label="ссылка на Twitter">Twitter</a></li>
-          <li><a href="" aria-label="ссылка на Facebook">Facebook</a></li>
-          <li><a href="" aria-label="ссылка на LinkedIn">LinkedIn</a></li>
+          <li>
+            <a href="" aria-label="ссылка на Instagram" class="link"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="ссылка на Twitter" class="link">Twitter</a>
+          </li>
+          <li>
+            <a href="" aria-label="ссылка на Facebook" class="link">Facebook</a>
+          </li>
+          <li>
+            <a href="" aria-label="ссылка на LinkedIn" class="link">LinkedIn</a>
+          </li>
         </ul>
       </div>
       <div>
         <!-- Призыв -->
         <b>Подпишитесь на рассылку</b>
         <!-- Форма подписки (пока не размечаем) -->
-        <button type="button">Подписаться</button>
+        <button type="button" class="button">Подписаться</button>
       </div>
       <p lang="en">2020 | Developed by GoIT Students</p>
     </footer>
