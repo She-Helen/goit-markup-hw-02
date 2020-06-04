@@ -41,14 +41,14 @@
       <section>
         <h1 class="title">Портфолио</h1>
         <div>
-          <button type="button">Все</button>
-          <button type="button">Веб-сайты</button>
-          <button type="button">Приложения</button>
-          <button type="button">Дизайн</button>
-          <button type="button">Маркетинг</button>
+          <button type="button" class="filter">Все</button>
+          <button type="button" class="filter">Веб-сайты</button>
+          <button type="button" class="filter">Приложения</button>
+          <button type="button" class="filter">Дизайн</button>
+          <button type="button" class="filter">Маркетинг</button>
         </div>
 
-        <ul>
+        <ul class="works-list">
           <li>
             <img
               src="./images/projects/tehnokryak.jpg"
@@ -57,8 +57,8 @@
               height="294"
             />
             <h2 class="title">Технокряк</h2>
-            <p>Веб-сайт</p>
-            <p>
+            <p class="filter-item">Веб-сайт</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -72,8 +72,8 @@
               height="294"
             />
             <h2 class="title">Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-            <p>
+            <p class="filter-item">Дизайн</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -87,8 +87,8 @@
               height="294"
             />
             <h2 class="title">Ресторан Seafood</h2>
-            <p>Приложение</p>
-            <p>
+            <p class="filter-item">Приложение</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -102,8 +102,8 @@
               height="294"
             />
             <h2 class="title">Проект Prime</h2>
-            <p>Маркетинг</p>
-            <p>
+            <p class="filter-item">Маркетинг</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -117,8 +117,8 @@
               height="294"
             />
             <h2 class="title">Проект Boxes</h2>
-            <p>Приложение</p>
-            <p>
+            <p class="filter-item">Приложение</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -132,8 +132,8 @@
               height="294"
             />
             <h2 class="title">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-            <p>
+            <p class="filter-item">Веб-сайт</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -147,8 +147,8 @@
               height="294"
             />
             <h2 class="title">Издание Limited Edition</h2>
-            <p>Дизайн</p>
-            <p>
+            <p class="filter-item">Дизайн</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -162,8 +162,8 @@
               height="294"
             />
             <h2 class="title">Проект LAB</h2>
-            <p>Маркетинг</p>
-            <p>
+            <p class="filter-item">Маркетинг</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -177,8 +177,8 @@
               height="294"
             />
             <h2 class="title">Growing Business</h2>
-            <p>Приложение</p>
-            <p>
+            <p class="filter-item">Приложение</p>
+            <p class="desc">
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
@@ -193,8 +193,8 @@
         <a href="./index.html" class="logo"
           >Web <span class="logo-footer">Studio</span></a
         >
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="contacts list">
+        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="footer-contacts">
           <li>
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
@@ -207,8 +207,8 @@
       </div>
       <div>
         <!-- Призыв -->
-        <b>присоединяйтесь</b>
-        <ul>
+        <b class="slogan">присоединяйтесь</b>
+        <ul class="socials">
           <li>
             <a href="" aria-label="ссылка на Instagram" class="link"
               >Instagram</a
@@ -227,11 +227,11 @@
       </div>
       <div>
         <!-- Призыв -->
-        <b>Подпишитесь на рассылку</b>
+        <b class="slogan">Подпишитесь на рассылку</b>
         <!-- Форма подписки (пока не размечаем) -->
         <button type="button" class="button">Подписаться</button>
       </div>
-      <p lang="en">2020 | Developed by GoIT Students</p>
+      <p lang="en" class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
